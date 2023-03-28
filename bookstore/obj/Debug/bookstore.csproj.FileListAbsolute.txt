@@ -1,0 +1,10 @@
+c:\users\mahsima\documents\visual studio 2015\Projects\bookstore\bookstore\bin\Debug\bookstore.exe.config
+c:\users\mahsima\documents\visual studio 2015\Projects\bookstore\bookstore\bin\Debug\bookstore.exe
+c:\users\mahsima\documents\visual studio 2015\Projects\bookstore\bookstore\bin\Debug\bookstore.pdb
+c:\users\mahsima\documents\visual studio 2015\Projects\bookstore\bookstore\obj\Debug\bookstore.csprojResolveAssemblyReference.cache
+c:\users\mahsima\documents\visual studio 2015\Projects\bookstore\bookstore\obj\Debug\bookstore.Form1.resources
+c:\users\mahsima\documents\visual studio 2015\Projects\bookstore\bookstore\obj\Debug\bookstore.Properties.Resources.resources
+c:\users\mahsima\documents\visual studio 2015\Projects\bookstore\bookstore\obj\Debug\bookstore.csproj.GenerateResource.Cache
+c:\users\mahsima\documents\visual studio 2015\Projects\bookstore\bookstore\obj\Debug\bookstore.exe
+c:\users\mahsima\documents\visual studio 2015\Projects\bookstore\bookstore\obj\Debug\bookstore.pdb
+c:\users\mahsima\documents\visual studio 2015\Projects\bookstore\bookstore\obj\Debug\bookstore.Form2.resources
