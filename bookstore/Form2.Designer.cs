@@ -78,7 +78,7 @@
             // 
             // btn_Search_books_frm2
             // 
-            this.btn_Search_books_frm2.Location = new System.Drawing.Point(153, 190);
+            this.btn_Search_books_frm2.Location = new System.Drawing.Point(181, 264);
             this.btn_Search_books_frm2.Name = "btn_Search_books_frm2";
             this.btn_Search_books_frm2.Size = new System.Drawing.Size(123, 40);
             this.btn_Search_books_frm2.TabIndex = 13;
@@ -90,7 +90,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(465, 256);
+            this.ClientSize = new System.Drawing.Size(482, 396);
             this.Controls.Add(this.btn_Search_books_frm2);
             this.Controls.Add(this.lbl_search_result);
             this.Controls.Add(this.lbl_book_id_search);

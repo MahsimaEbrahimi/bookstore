@@ -36,7 +36,7 @@ namespace bookstore
         {
             book_id = id;
         }
-        public book (string book_name,string book_id,string book_author="")
+        public book (string book_name,string book_id,string book_author)
         {
             this.setName(book_name);
             this.setID(book_id);

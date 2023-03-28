@@ -21,7 +21,7 @@ namespace bookstore
 
         private void btn_Search_books_frm2_Click_1(object sender, EventArgs e)
         {
-            lbl_search_result.Text = BOok_Store_instance2.search(txtBook_ID_search.Text.ToString(), txtBook_name_search.Text.ToString());
+            lbl_search_result.Text = BOok_Store_instance2.search(txtBook_name_search.Text.ToString(), txtBook_ID_search.Text.ToString());
         }
     }
 }

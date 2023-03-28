@@ -22,7 +22,7 @@ namespace bookstore
         private void button1_Click(object sender, EventArgs e)
         {
             //add book to list
-            book BOOK_INSTANCE = new book(txtBook_name.Text.ToString(),txtBook_ID.Text.ToString());
+            book BOOK_INSTANCE = new book(txtBook_name.Text.ToString(),txtBook_ID.Text.ToString(),txt_book_author.Text.ToString());
            if( BookStore.validity(BOOK_INSTANCE)==true)
             {
               BookStore.book_add(BOOK_INSTANCE);
@@ -46,8 +46,13 @@ namespace bookstore
         {
             //search book
             Form2 frm2 = new Form2(BookStore);
-            frm2.Show();
-            
+            frm2.Show();      
+        }
+
+        private void btn_delete_book_Click(object sender, EventArgs e)
+        {
+            //remove book
+            BookStore.delete_book(txtBook_name.Text.ToString(), txtBook_ID.Text.ToString(), txt_book_author.Text.ToString());
         }
     }
 }

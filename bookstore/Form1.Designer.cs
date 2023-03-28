@@ -175,6 +175,7 @@
             this.btn_delete_book.TabIndex = 5;
             this.btn_delete_book.Text = "حذف کتاب ";
             this.btn_delete_book.UseVisualStyleBackColor = true;
+            this.btn_delete_book.Click += new System.EventHandler(this.btn_delete_book_Click);
             // 
             // Form1
             // 

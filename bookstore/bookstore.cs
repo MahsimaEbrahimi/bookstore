@@ -54,14 +54,37 @@ namespace bookstore
 
         public string search(string name_search, string id_search)
         {
-           foreach (book b in Book_list)
+
+            foreach (book b in Book_list)
             {
-                if(b.getName()==name_search)
+                if (b.getName().Equals(name_search)&& b.getID().Equals(id_search))
                 {
-                    return "book found" + b.getName() + b.getID() + b.getBook_author();
+                    return "book found"+ "\r\n"+ "book name: "+b.getName()+"\r\n" +"book id: " +b.getID()+"\r\n" +"book author: "+ b.getBook_author();
                 }
             }
-            return null;
+            return "book not found";
+        }
+        public bool  delete_book(string name_del, string id_del,string author_del)
+        {
+            foreach (book b in Book_list)
+            {
+                if (b.getName().Equals(name_del) && b.getID().Equals(id_del))
+                {
+                    Book_list.Remove(b);
+                    MessageBox.Show( "the book removed");
+                    return true;
+                    
+                }
+                else
+                {
+                    MessageBox.Show( "can't remove book , an error occured");
+                    return true;
+                    
+                }
+            }
+            MessageBox.Show("can't remove book , an error occured");
+            return false;
+
         }
     }
 }
