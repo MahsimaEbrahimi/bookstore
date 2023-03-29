@@ -68,16 +68,10 @@ namespace bookstore
         {
             foreach (book b in Book_list)
             {
-                if (b.getName().Equals(name_del) && b.getID().Equals(id_del))
+                if (b.getName().Equals(name_del) && b.getID().Equals(id_del)&& b.getBook_author().Equals(author_del))
                 {
                     Book_list.Remove(b);
                     MessageBox.Show( "the book removed");
-                    return true;
-                    
-                }
-                else
-                {
-                    MessageBox.Show( "can't remove book , an error occured");
                     return true;
                     
                 }

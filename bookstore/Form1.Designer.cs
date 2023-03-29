@@ -54,7 +54,7 @@
             // 
             // btn_add_book
             // 
-            this.btn_add_book.Location = new System.Drawing.Point(110, 290);
+            this.btn_add_book.Location = new System.Drawing.Point(138, 472);
             this.btn_add_book.Name = "btn_add_book";
             this.btn_add_book.Size = new System.Drawing.Size(139, 42);
             this.btn_add_book.TabIndex = 1;
@@ -107,7 +107,7 @@
             // 
             // btn_show_all_books
             // 
-            this.btn_show_all_books.Location = new System.Drawing.Point(110, 428);
+            this.btn_show_all_books.Location = new System.Drawing.Point(138, 610);
             this.btn_show_all_books.Name = "btn_show_all_books";
             this.btn_show_all_books.Size = new System.Drawing.Size(139, 40);
             this.btn_show_all_books.TabIndex = 9;
@@ -133,7 +133,7 @@
             // 
             // btn_Search_books
             // 
-            this.btn_Search_books.Location = new System.Drawing.Point(110, 474);
+            this.btn_Search_books.Location = new System.Drawing.Point(138, 656);
             this.btn_Search_books.Name = "btn_Search_books";
             this.btn_Search_books.Size = new System.Drawing.Size(139, 40);
             this.btn_Search_books.TabIndex = 12;
@@ -159,7 +159,7 @@
             // 
             // btn_show_count_books
             // 
-            this.btn_show_count_books.Location = new System.Drawing.Point(110, 382);
+            this.btn_show_count_books.Location = new System.Drawing.Point(138, 564);
             this.btn_show_count_books.Name = "btn_show_count_books";
             this.btn_show_count_books.Size = new System.Drawing.Size(139, 40);
             this.btn_show_count_books.TabIndex = 8;
@@ -169,7 +169,7 @@
             // 
             // btn_delete_book
             // 
-            this.btn_delete_book.Location = new System.Drawing.Point(110, 338);
+            this.btn_delete_book.Location = new System.Drawing.Point(138, 520);
             this.btn_delete_book.Name = "btn_delete_book";
             this.btn_delete_book.Size = new System.Drawing.Size(139, 38);
             this.btn_delete_book.TabIndex = 5;
@@ -181,7 +181,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(457, 590);
+            this.ClientSize = new System.Drawing.Size(515, 735);
             this.Controls.Add(this.lbl_book_author);
             this.Controls.Add(this.txt_book_author);
             this.Controls.Add(this.btn_Search_books);

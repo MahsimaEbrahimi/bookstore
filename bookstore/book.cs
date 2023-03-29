@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace bookstore
 {
@@ -42,5 +43,9 @@ namespace bookstore
             this.setID(book_id);
             this.set_Book_author(book_author);
         }
+        ~book()
+            {
+            MessageBox.Show("the distructor callded");
+            }
     }
 }
